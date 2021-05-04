@@ -8,12 +8,14 @@
 import UIKit
 
 
-let category : Category = Category(name: "Lista de compras", color: .green)
+let work : Category = Category(name: "Trabalho", color: .green)
+let buy : Category = Category(name: "Compras", color: .yellow)
+let study : Category = Category(name: "Estudos", color: .blue)
 let tasks : [Task] =  [
     
-    Task(name: "Entregar documentos de estagio na BRQ :)", date: Date(), category: category),
-    Task(name: "Essa e a minha lista de compras", date: Date(), category: category),
-    Task(name: "Criar uma apresentacao para amanha", date: Date(), category: category)
+    Task(name: "Entregar documentos de estagio na BRQ :)", date: Date(), category: work),
+    Task(name: "Comprar o Macbook Pro 2020", date: Date(), category: buy),
+    Task(name: "Entregar o TCC da faculdade <3", date: Date(), category: study)
 ]
 
 class TasksTableViewController: UITableViewController {
@@ -39,8 +41,7 @@ class TasksTableViewController: UITableViewController {
         dateFormatter.dateFormat = "dd/MM/yyyy"
         cell.dateLabel.text = dateFormatter.string(from: task.date)
         
-        
-        cell.categotyNameLabel.text = task.category.name
+        cell.categoryTask.text = task.category.name
         
         cell.categoryView.backgroundColor = task.category.color
         
