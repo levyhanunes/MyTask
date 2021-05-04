@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="82" id="A0X-BT-ZYK">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" rowHeight="82" id="A0X-BT-ZYK" customClass="TaskTableViewCell" customModule="MyTask" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="82"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A0X-BT-ZYK" id="h3x-58-cga">
@@ -75,6 +75,14 @@
                                         <constraint firstItem="GEj-ji-bfS" firstAttribute="top" secondItem="h3x-58-cga" secondAttribute="topMargin" constant="7" id="zpz-Rb-Nhf"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="categoryName" destination="9rG-CU-uAy" id="3HS-Py-j6h"/>
+                                    <outlet property="categoryView" destination="LMJ-4K-FQ5" id="2dv-Kp-iOT"/>
+                                    <outlet property="categotyNameLabel" destination="9rG-CU-uAy" id="1jU-4c-zCw"/>
+                                    <outlet property="dateLabel" destination="lyC-WH-nJd" id="7pV-Nc-pBP"/>
+                                    <outlet property="hourLabel" destination="GEj-ji-bfS" id="yc6-jR-Vpu"/>
+                                    <outlet property="taskDescriptionLabel" destination="9ch-lP-Ntq" id="YyP-io-h7U"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

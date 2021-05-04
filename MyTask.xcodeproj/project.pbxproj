@@ -15,6 +15,7 @@
 		AB0AE149263E3DD600F9CB16 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0AE148263E3DD600F9CB16 /* TasksTableViewController.swift */; };
 		AB533629263F994D00DD37D8 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB533628263F994D00DD37D8 /* Task.swift */; };
 		AB53362D263F9AC900DD37D8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53362C263F9AC900DD37D8 /* Category.swift */; };
+		AB9F46C12640E5D60028A5CE /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F46C02640E5D60028A5CE /* TaskTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AB0AE148263E3DD600F9CB16 /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 		AB533628263F994D00DD37D8 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		AB53362C263F9AC900DD37D8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AB9F46C02640E5D60028A5CE /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		AB0AE147263E3D4A00F9CB16 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AB9F46BF2640E5A90028A5CE /* Cells */,
 				AB0AE148263E3DD600F9CB16 /* TasksTableViewController.swift */,
 			);
 			path = Controllers;
@@ -87,6 +90,14 @@
 				AB53362C263F9AC900DD37D8 /* Category.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		AB9F46BF2640E5A90028A5CE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AB9F46C02640E5D60028A5CE /* TaskTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			files = (
 				AB533629263F994D00DD37D8 /* Task.swift in Sources */,
 				AB53362D263F9AC900DD37D8 /* Category.swift in Sources */,
+				AB9F46C12640E5D60028A5CE /* TaskTableViewCell.swift in Sources */,
 				AB0AE149263E3DD600F9CB16 /* TasksTableViewController.swift in Sources */,
 				AB0AE132263E0E2600F9CB16 /* AppDelegate.swift in Sources */,
 				AB0AE134263E0E2600F9CB16 /* SceneDelegate.swift in Sources */,
