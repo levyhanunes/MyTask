@@ -15,6 +15,7 @@
 ## Populando as Tasks atraves do numbersOfRowsInSection e cellForRowAt - veja como ficou:
 
 ![Capturar1234](https://user-images.githubusercontent.com/56304278/116956720-56583980-ac6c-11eb-93ba-cd9c99001271.JPG)
+e
 ![Capturar123](https://user-images.githubusercontent.com/56304278/116956730-5eb07480-ac6c-11eb-9133-cb4dd4a3673f.JPG)
 
 
